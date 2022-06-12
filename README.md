@@ -1,3 +1,3 @@
 # HackYourFuture course / HTML-CSS / Week number 1
-Bird (pure HTML + CSS)
+Bird (pure HTML + CSS)<br>
 https://github.com/asksmith/HTML-CSS/blob/main/week1/prep-exercises/bird.html
