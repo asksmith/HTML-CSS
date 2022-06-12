@@ -1,1 +1,2 @@
-# HYF-Module-HTMLCSSGIT
+# HackYourFuture course
+# HTML-CSS
