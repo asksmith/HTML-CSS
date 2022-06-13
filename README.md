@@ -7,6 +7,7 @@
 <br>
 <a href="https://github.com/asksmith/HTML-CSS/blob/main/week1/digital-resume/cv.html">Digital Resume code</a>
 
+<2>CLI Challenge</h2>
 <b>1.1. How do I create a hidden file or folder? </b>
 
 Name of a file or a directory should start with a dot character. <br>
