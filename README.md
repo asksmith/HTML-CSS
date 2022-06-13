@@ -9,7 +9,7 @@
 
 <h2>CLI Challenge</h2>
 <b>1.1. How do I create a hidden file or folder? </b>
-
+<br>
 Name of a file or a directory should start with a dot character. <br>
 
 To create a “hidden” directory you should use command “mkdir”, for example: <br>
@@ -23,12 +23,12 @@ You could use command “ls” with a argument “-a” (show all files), for ex
 <i>$ls -a</il>
 
 2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
-
+<br>
 You should use command “mkdir” with an argument “-p” (Create intermediate directories as required), for example:
 <i>$mkdir -p “these/folders/are/just/for/fun” </i>
 
 3. How do I append a message to a file, without a newline character, so the output would be…
-
+<br>
 There are many ways to do that, for instance, you could use “echo” command with an argument “-n” (Do not print the trailing newline character) like that:
 
 <i>$echo “first message\nsecond message\n”>>file.txt</i>
