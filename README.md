@@ -38,7 +38,7 @@ You should use command “mkdir” with an argument “-p” (Create intermediat
 <b>3. How do I append a message to a file, without a newline character, so the output would be…</b>
 <br>
 There are many ways to do that, for instance, you could use “echo” command with an argument “-n” (Do not print the trailing newline character) like that:<br>
-<i>$echo “first message\nsecond message\n”>>file.txt</i><br>
+<i>$echo -n “first message\nsecond message\n”>>file.txt</i><br>
 
 And there are many more, for instance “printf” command, etc...
 </p>
