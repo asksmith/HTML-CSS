@@ -21,7 +21,7 @@ To create “hidden” file you could use “touch” command, for example: <br>
 <b>1.2. How do I display it in the CLI?</b>
 <br>
 You could use command “ls” with a argument “-a” (show all files), for example:<br>
-<i>$ls -a</il>
+<i>$ls -a</i>
 
 2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
 <br>
