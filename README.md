@@ -25,7 +25,7 @@ You could use command “ls” with a argument “-a” (show all files), for ex
 
 2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
 <br>
-You should use command “mkdir” with an argument “-p” (Create intermediate directories as required), for example:<br>
+You should use command “mkdir” with an argument “-p” (Create intermediate directories as required), for example:
 <i>$mkdir -p “these/folders/are/just/for/fun” </i>
 
 3. How do I append a message to a file, without a newline character, so the output would be…
