@@ -1,0 +1,138 @@
+#digitalcv
+{
+    width: 60%;
+    display : flex;
+    margin: 4ex auto;
+    border: 1px solid black;
+    border-radius: 2ex; 
+    box-shadow: 0.5ex 0.5ex rgba(0,0,0,0.3);
+}
+#digitalcv *
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+aside
+{
+    width: 30%;
+}
+
+.photo img
+{
+    position: relative;
+    right: -4em;
+    top: -2ex;
+    border-radius: 2ex;
+    border-bottom-right-radius: 0ex;
+    border-top-left-radius: 0ex;
+}
+.photo
+{
+    margin:0em;
+    padding: 0em;
+}
+#detailed
+{
+    width: 70%;
+    border-right: 1px dotted rgba(20,20,20,0.3);
+    padding: 4ex 0em;
+}
+#detailed section
+{
+    padding: 2ex 4em;
+}
+#brief
+{   padding: 2ex 4em 2ex 2ex;
+}
+
+dt
+{
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px dotted brown;
+    margin-bottom: 0.5ex;
+}
+dd
+{
+    margin: 0em;
+    margin-bottom: 1.5ex;   
+}
+ul 
+{
+    list-style-type: "—";
+    margin: 0em;
+}
+li
+{
+    padding-left: 2ex;
+}
+
+#detailed h4
+{
+    display: inline-block;
+    border-bottom: 1px dotted brown;
+    margin:0em;
+    margin-bottom: 1.5ex;
+    padding:0em;
+}
+
+#detailed span
+{
+    position:relative;
+}
+#detailed span.selected.management::before,
+#detailed span.selected.training::before,
+#detailed span.selected.development::before,
+#detailed span.selected.interpreting::before,
+#detailed span.selected.law::before
+{
+    display:inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: 0.1ex 0.1ex black;
+    border-radius: 2ex;
+    padding: 1ex 0.5em;
+    margin: 0.2ex 0.3em;
+    background-color: rgb(230,230,230);
+    color: black;
+}
+
+#detailed .selected.interpreting::before
+{
+    content: 'Interpreting'; 
+}
+#detailed .selected.law::before
+{
+    content: 'Law'; 
+}
+
+#detailed .selected.management::before
+{
+    content: 'Management'; 
+}
+#detailed .selected.training::before
+{
+    content: 'Training'; 
+}
+#detailed .selected.development::before
+{
+    content: 'Development'; 
+}
+
+
+#detailed h2
+{
+    font-weight: bold;
+    color: brown;
+    margin: 0em 0em 2ex 0em;
+    padding: 0em;
+}
+
+.experience a
+{
+    display:inline-block;
+    color : orange;
+    text-decoration:none;
+    padding-bottom: 0.1ex;
+    border-bottom: 1px dotted brown;
+}
