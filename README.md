@@ -25,12 +25,12 @@ You could use command “ls” with a argument “-a” (show all files), for ex
 
 2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
 <br>
-You should use command “mkdir” with an argument “-p” (Create intermediate directories as required), for example:
+You should use command “mkdir” with an argument “-p” (Create intermediate directories as required), for example:<br>
 <i>$mkdir -p “these/folders/are/just/for/fun” </i>
 
 3. How do I append a message to a file, without a newline character, so the output would be…
 <br>
-There are many ways to do that, for instance, you could use “echo” command with an argument “-n” (Do not print the trailing newline character) like that:
+There are many ways to do that, for instance, you could use “echo” command with an argument “-n” (Do not print the trailing newline character) like that:<br>
 
 <i>$echo “first message\nsecond message\n”>>file.txt</i>
 
