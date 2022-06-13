@@ -1,5 +1,7 @@
 # HackYourFuture course / HTML-CSS / Week number 1
 <a href="https://github.com/asksmith/HTML-CSS/blob/main/week1/prep-exercises/bird.html">Bird (pure HTML + CSS)</a>
+<br>
+<a href="https://github.com/asksmith/HTML-CSS/blob/main/week1/digital-resume/cv.html">Digital Resume</a>
 
 <b>1.1. How do I create a hidden file or folder? </b>
 
