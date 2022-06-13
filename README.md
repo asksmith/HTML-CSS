@@ -39,6 +39,6 @@ You should use command “mkdir” with an argument “-p” (Create intermediat
 <br>
 There are many ways to do that, for instance, you could use “echo” command with an argument “-n” (Do not print the trailing newline character) like that:<br>
 <i>$echo -n “first message\nsecond message\n”>>file.txt</i><br>
-
+<br>
 And there are many more, for instance “printf” command, etc...
 </p>
