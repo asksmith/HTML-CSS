@@ -3,6 +3,7 @@
 <br>
 <a href="https://github.com/asksmith/HTML-CSS/blob/main/week1/prep-exercises/bird.html">Bird (pure HTML+CSS) code</a>
 <br>
+<br>
 <a href="http://htmlpreview.github.io/?https://github.com/asksmith/HTML-CSS/blob/main/week1/digital-resume/cv.html">Digital Resume</a>
 <br>
 <a href="https://github.com/asksmith/HTML-CSS/blob/main/week1/digital-resume/cv.html">Digital Resume code</a>
