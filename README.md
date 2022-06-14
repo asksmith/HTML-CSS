@@ -1,4 +1,4 @@
-# HackYourFuture course / HTML-CSS / Week number 1
+# HackYourFuture course &raquo; HTML-CSS &raquo; Week number 1
 <a href="http://htmlpreview.github.io/?https://github.com/asksmith/HTML-CSS/blob/main/week1/prep-exercises/bird.html">Bird (pure HTML + CSS)</a>
 <br>
 <a href="https://github.com/asksmith/HTML-CSS/blob/main/week1/prep-exercises/bird.html">Bird (pure HTML+CSS) code</a>
