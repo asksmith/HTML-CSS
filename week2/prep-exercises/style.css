@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body{
+    padding: 0;
+    margin:0;
+}
+.grid-section
+{
+    margin:2vw;
+}
+
+.grid-list{
+/*
+** reset UL
+*/
+    margin:0;
+    padding:0;
+    font-size:0;
+    list-style-type:none;
+
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-item{
+    height: 40vh;
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 2vw;
+    margin: 1vw;
+    padding:1vw;  
+    font-size:12px;
+    overflow:hidden;
+}
+.grid-item:first-child{
+    width: 46vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid-item:last-child{
+    width: 46vw;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.grid-item img{
+    display: inline-block;
+    height: 50%;
+    position:absolute;
+    bottom: 0px;
+    right:0px;
+    border-radius: 2vw;
+    z-index: 1;
+    opacity:0.7;
+    align:center;
+}
+.grid-item:hover img{
+    background:white;
+    left:0px;
+    top:0px;
+    height:100%;
+    width:auto;
+    opacity:1;
+    margin:0 auto;
+}
+.grid-item:hover{
+    color:white;
+}
+
+
+.flexbox-section
+{
+    margin:2vw;
+}
+.flexbox-list
+{
+/*
+** reset UL
+*/
+    margin:0;
+    padding:0;
+    font-size:0;
+    list-style-type:none;
+/*
+**  Setup flex table
+*/
+    display:flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flexbox-item
+{
+    position:relative;
+    overflow:hidden;
+    height: 40vh;
+
+    border: 1px solid grey;
+    border-radius: 2vw;
+    font-size: 12px;
+    text-align: center;
+    padding:1vw;  
+}
+.flexbox-item img{
+    display: inline-block;
+    height: 50%;
+    position:absolute;
+    bottom: 0px;
+    right:0px;
+    border-radius: 2vw;
+    z-index: 1;
+    opacity:0.7;
+    align:center;
+}
+.flexbox-item:hover img{
+    background:white;
+    left:0px;
+    top:0px;
+    height:100%;
+    width:auto;
+    opacity:1;
+    margin:0 auto;
+}
+.flexbox-item:hover{
+    color:white;
+}
+
+.flexbox-item h3{
+    display: block;
+    font-size: 16px;
+    text-align:left;
+    text-transform: uppercase;
+}
+
+.flexbox-item h3,
+.flexbox-item p{
+    text-align:justify;
+    background-color: rgba(255,255,255,0.7);
+}
+
+@media screen and (max-width:600px)
+{
+    .flexbox-item{
+        width: 100vw;
+    }
+    .grid-list{
+        display:block;
+        margin:0em;
+    }
+    .grid-item{
+        margin:1em 0em!important;
+        width:96vw!important;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:600px)
+{
+    .grid-list
+    {
+        width:100%;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    .grid-item{
+        overflow:hidden;
+        width: 16vw;
+        margin:1vw;
+    }
+    .grid-item:nth-child(3n+3){
+        width: 30.5vw;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-left:0vw;
+    }
+    .grid-item:nth-child(3n+1){
+        width: 30.5vw;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .grid-item:nth-child(3n+2){
+        width: 30.5vw;
+        grid-column-start: 4;
+        grid-column-end: 6;
+        margin-right:0vw;
+    }
+    .grid-item:nth-child(1){
+        width: 47vw;
+        margin-left:0vw;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .grid-item:nth-child(2){
+        width: 47vw;
+        margin-right:0vw;
+        grid-column-start: 3;
+        grid-column-end: 6;
+
+    }
+    .flexbox-item{
+        width: 30vw;
+        margin:1vw;
+    }
+    .flexbox-item:nth-child(1){
+        flex-grow: 2;
+        width: 46vw;
+        margin-left: 0vw;
+    }
+    .flexbox-item:nth-child(2){
+        flex-grow: 2;
+        width: 46vw;
+        margin-right: 0vw;
+    }
+    .flexbox-item:nth-child(3n+0){
+        margin-left:0vw;
+    }
+    .flexbox-item:nth-child(3n+2){
+        margin-right:0vw;
+    }
+}
+@media screen and (min-width:1024px)
+{
+    .grid-list
+    {
+    }
+    .flexbox-item{
+        width: 22vw;
+        margin:1vw;
+    }
+    .flexbox-list{
+    }
+    .flexbox-item:first-child{
+        flex-grow: 2;
+        width: 47vw;
+    }
+    .flexbox-item:last-child{
+        flex-grow: 2;
+        width: 47vw;
+    }
+}
+
+
